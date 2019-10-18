@@ -45,7 +45,7 @@ sfo_feb_flights
 ggplot(data = sfo_feb_flights, aes(x = arr_delay)) + geom_histogram()
 sfo_feb_flights %>% group_by(carrier) %>% summarise(med_nn = median(arr_delay), iqr_r = IQR(arr_delay)) %>% arrange(desc(med_nn)) 
 ggplot(data = nycflights, aes(x = factor(month), y = dep_delay)) + geom_boxplot()
-nycflights
+?nycflights
 
 
 
