@@ -1,10 +1,14 @@
-# Introduction
-
+#Required Pakages 
+install.packages("devtools")
+install.packages("dplyr")
+install.packages("ggplot2")
+install_github("StatsWithR/statsr")
 library(ggplot2)
 library(devtools)
 library(dplyr)
-install_github("StatsWithR/statsr")
 library(statsr)
+
+# Introduction
 
 data("nycflights")
 head(nycflights, n=10L)
